@@ -3,6 +3,7 @@ import React from "react";
 const Modal = ({ children, modal, setModal }) => {
   return (
     <>
+    {/* git */}
 
       <div
         onClick={() => setModal(false)}
@@ -12,7 +13,7 @@ const Modal = ({ children, modal, setModal }) => {
       } transition-all duration-500`}
       />
       {children}
-      
+
     </>
   );
 };
