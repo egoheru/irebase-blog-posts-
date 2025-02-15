@@ -11,9 +11,11 @@ import "react-tagsinput/react-tagsinput.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+
       <Context>
         <App />
       </Context>
+      
     </BrowserRouter>
   </React.StrictMode>
 );

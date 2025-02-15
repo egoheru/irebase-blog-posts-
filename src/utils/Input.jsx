@@ -5,6 +5,7 @@ const Input = ({ type, title, form, setForm }) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   return (
+
     <div className="flex flex-col gap-2">
       <label className="text-sm capitalize">{title}</label>
       <input
@@ -13,7 +14,9 @@ const Input = ({ type, title, form, setForm }) => {
         name={title}
         onChange={handleChange}
       />
+      
     </div>
+
   );
 };
 
