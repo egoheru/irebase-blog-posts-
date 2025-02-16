@@ -149,13 +149,16 @@ export const users = [
 
 export const comments = [
   {
+
     id: 1,
     username: "username",
     userImg:
       "https://i.pinimg.com/736x/72/ea/af/72eaaf5c70436356bce53862c75c7eeb.jpg",
     text: "Nice post",
     created: new Date(),
+
   },
+  
   {
     id: 2,
     username: "username",
